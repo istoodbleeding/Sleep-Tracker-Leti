@@ -168,7 +168,7 @@ class SleepAppViewModel: ObservableObject {
                         // Если расстояние меньше 5 метров, увеличиваем счет местоположения
                         location.score += 1
                         
-                    }
+            }
                 }
                 // Сдвиг индексов для следующего прохода
                 startIndex += batchSize/2

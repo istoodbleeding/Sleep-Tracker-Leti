@@ -1,5 +1,4 @@
 
-
 import Foundation
 import CoreData
 
@@ -10,9 +9,16 @@ extension Sleep {
         return NSFetchRequest<Sleep>(entityName: "Sleep")
     }
 
-    @NSManaged public var id: UUID?
     @NSManaged public var edited: Bool
+    @NSManaged public var id: UUID?
     @NSManaged public var sleepToSleepIntervals: NSSet?
+    
+    public var sleepArray: [SleepInterval] {
+        let set = sleepToSleepIntervals as? Set<SleepInterval> ?? []
+        return set.sorted {
+            ($0.begin ?? Date()) < ($1.begin ?? Date())
+        }
+    }
 
 }
 
