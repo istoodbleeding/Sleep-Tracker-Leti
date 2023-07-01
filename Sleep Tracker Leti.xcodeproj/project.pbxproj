@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62D91FC02A34E8810000DEED /* Sleep_Tracker_LetiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D91FBF2A34E8810000DEED /* Sleep_Tracker_LetiApp.swift */; };
+		62D91FC22A34E8810000DEED /* SleepAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D91FC12A34E8810000DEED /* SleepAppView.swift */; };
+		62D91FC42A34E8820000DEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D91FC32A34E8820000DEED /* Assets.xcassets */; };
+		62D91FC72A34E8820000DEED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D91FC62A34E8820000DEED /* Preview Assets.xcassets */; };
+		62D91FC92A34E8820000DEED /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D91FC82A34E8820000DEED /* DataManager.swift */; };
+		62D91FCC2A34E8820000DEED /* Sleep_Tracker_Leti.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62D91FCA2A34E8820000DEED /* Sleep_Tracker_Leti.xcdatamodeld */; };
+		62D9200F2A34ECE20000DEED /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D9200E2A34ECE20000DEED /* TrackingView.swift */; };
+		62D920112A34ED220000DEED /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D920102A34ED220000DEED /* StatsView.swift */; };
+		62D920132A34ED470000DEED /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D920122A34ED470000DEED /* BackgroundView.swift */; };
+		62D920162A34ED980000DEED /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D920152A34ED980000DEED /* ColorExtensions.swift */; };
+		62D920182A34EDB20000DEED /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D920172A34EDB20000DEED /* FontExtensions.swift */; };
+		62D9201A2A34EDDD0000DEED /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D920192A34EDDD0000DEED /* ChartView.swift */; };
+		62D9201C2A34EDF80000DEED /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D9201B2A34EDF80000DEED /* TestView.swift */; };
+		62D9201E2A34EE1F0000DEED /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D9201D2A34EE1F0000DEED /* TimerView.swift */; };
+		62D920202A34EE470000DEED /* SleepEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D9201F2A34EE470000DEED /* SleepEditorView.swift */; };
+		62D920252A34EF6F0000DEED /* SleepAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D920242A34EF6F0000DEED /* SleepAppViewModel.swift */; };
+		62D920272A34F0060000DEED /* AppAlertBadgeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D920262A34F0060000DEED /* AppAlertBadgeManager.swift */; };
+		62D920292A34F0B60000DEED /* SoundAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D920282A34F0B60000DEED /* SoundAnimationView.swift */; };
+		62D9202B2A34F1560000DEED /* TrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D9202A2A34F1560000DEED /* TrackingViewModel.swift */; };
+		62D920652A34F6F70000DEED /* Sleep+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D920612A34F6F70000DEED /* Sleep+CoreDataClass.swift */; };
+		62D920662A34F6F70000DEED /* Sleep+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D920622A34F6F70000DEED /* Sleep+CoreDataProperties.swift */; };
+		62D920672A34F6F70000DEED /* SleepInterval+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D920632A34F6F70000DEED /* SleepInterval+CoreDataClass.swift */; };
+		62D920682A34F6F70000DEED /* SleepInterval+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D920642A34F6F70000DEED /* SleepInterval+CoreDataProperties.swift */; };
+		62DCB55F2A374B9D00C51040 /* SleepListEditedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DCB55E2A374B9D00C51040 /* SleepListEditedView.swift */; };
+		62DCB5612A379EC500C51040 /* SleepEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DCB5602A379EC500C51040 /* SleepEditorViewModel.swift */; };
+		62DCB5632A37CBF600C51040 /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DCB5622A37CBF600C51040 /* StatsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62D91FBC2A34E8810000DEED /* Sleep Tracker Leti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep Tracker Leti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D91FBF2A34E8810000DEED /* Sleep_Tracker_LetiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_Tracker_LetiApp.swift; sourceTree = "<group>"; };
+		62D91FC12A34E8810000DEED /* SleepAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepAppView.swift; sourceTree = "<group>"; };
+		62D91FC32A34E8820000DEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62D91FC62A34E8820000DEED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62D91FC82A34E8820000DEED /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		62D91FCB2A34E8820000DEED /* Sleep_Tracker_Leti.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sleep_Tracker_Leti.xcdatamodel; sourceTree = "<group>"; };
+		62D91FD22A34E8C10000DEED /* Sleep-Tracker-Leti-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sleep-Tracker-Leti-Info.plist"; sourceTree = SOURCE_ROOT; };
+		62D9200E2A34ECE20000DEED /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		62D920102A34ED220000DEED /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		62D920122A34ED470000DEED /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		62D920152A34ED980000DEED /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		62D920172A34EDB20000DEED /* FontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtensions.swift; sourceTree = "<group>"; };
+		62D920192A34EDDD0000DEED /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		62D9201B2A34EDF80000DEED /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		62D9201D2A34EE1F0000DEED /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		62D9201F2A34EE470000DEED /* SleepEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepEditorView.swift; sourceTree = "<group>"; };
+		62D920242A34EF6F0000DEED /* SleepAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepAppViewModel.swift; sourceTree = "<group>"; };
+		62D920262A34F0060000DEED /* AppAlertBadgeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlertBadgeManager.swift; sourceTree = "<group>"; };
+		62D920282A34F0B60000DEED /* SoundAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnimationView.swift; sourceTree = "<group>"; };
+		62D9202A2A34F1560000DEED /* TrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewModel.swift; sourceTree = "<group>"; };
+		62D9204B2A34F5EF0000DEED /* Sound+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sound+CoreDataClass.swift"; sourceTree = "<group>"; };
+		62D9204C2A34F5EF0000DEED /* Sound+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sound+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		62D9204D2A34F5EF0000DEED /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		62D9204E2A34F5EF0000DEED /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		62D920612A34F6F70000DEED /* Sleep+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sleep+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		62D920622A34F6F70000DEED /* Sleep+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sleep+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		62D920632A34F6F70000DEED /* SleepInterval+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SleepInterval+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		62D920642A34F6F70000DEED /* SleepInterval+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SleepInterval+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		62DCB55E2A374B9D00C51040 /* SleepListEditedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepListEditedView.swift; sourceTree = "<group>"; };
+		62DCB5602A379EC500C51040 /* SleepEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepEditorViewModel.swift; sourceTree = "<group>"; };
+		62DCB5622A37CBF600C51040 /* StatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D91FB92A34E8810000DEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62D91FB32A34E8810000DEED = {
+			isa = PBXGroup;
+			children = (
+				62D91FBE2A34E8810000DEED /* Sleep Tracker Leti */,
+				62D91FBD2A34E8810000DEED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62D91FBD2A34E8810000DEED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62D91FBC2A34E8810000DEED /* Sleep Tracker Leti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D91FBE2A34E8810000DEED /* Sleep Tracker Leti */ = {
+			isa = PBXGroup;
+			children = (
+				62D91FD22A34E8C10000DEED /* Sleep-Tracker-Leti-Info.plist */,
+				62D91FBF2A34E8810000DEED /* Sleep_Tracker_LetiApp.swift */,
+				62D91FC82A34E8820000DEED /* DataManager.swift */,
+				62D920262A34F0060000DEED /* AppAlertBadgeManager.swift */,
+				62D920302A34F2FF0000DEED /* model */,
+				62D9200D2A34ECCB0000DEED /* view */,
+				62D920212A34EE760000DEED /* viewModel */,
+				62D920142A34ED680000DEED /* Extensions */,
+				62D91FC32A34E8820000DEED /* Assets.xcassets */,
+				62D91FC52A34E8820000DEED /* Preview Content */,
+			);
+			path = "Sleep Tracker Leti";
+			sourceTree = "<group>";
+		};
+		62D91FC52A34E8820000DEED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				62D91FC62A34E8820000DEED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62D9200D2A34ECCB0000DEED /* view */ = {
+			isa = PBXGroup;
+			children = (
+				62D91FC12A34E8810000DEED /* SleepAppView.swift */,
+				62D9200E2A34ECE20000DEED /* TrackingView.swift */,
+				62D920102A34ED220000DEED /* StatsView.swift */,
+				62D920122A34ED470000DEED /* BackgroundView.swift */,
+				62D920192A34EDDD0000DEED /* ChartView.swift */,
+				62D9201B2A34EDF80000DEED /* TestView.swift */,
+				62D9201D2A34EE1F0000DEED /* TimerView.swift */,
+				62D9201F2A34EE470000DEED /* SleepEditorView.swift */,
+				62D920282A34F0B60000DEED /* SoundAnimationView.swift */,
+				62DCB55E2A374B9D00C51040 /* SleepListEditedView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		62D920142A34ED680000DEED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				62D920152A34ED980000DEED /* ColorExtensions.swift */,
+				62D920172A34EDB20000DEED /* FontExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		62D920212A34EE760000DEED /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				62D920242A34EF6F0000DEED /* SleepAppViewModel.swift */,
+				62D9202A2A34F1560000DEED /* TrackingViewModel.swift */,
+				62DCB5602A379EC500C51040 /* SleepEditorViewModel.swift */,
+				62DCB5622A37CBF600C51040 /* StatsViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		62D920302A34F2FF0000DEED /* model */ = {
+			isa = PBXGroup;
+			children = (
+				62D920612A34F6F70000DEED /* Sleep+CoreDataClass.swift */,
+				62D920622A34F6F70000DEED /* Sleep+CoreDataProperties.swift */,
+				62D920632A34F6F70000DEED /* SleepInterval+CoreDataClass.swift */,
+				62D920642A34F6F70000DEED /* SleepInterval+CoreDataProperties.swift */,
+				62D9204B2A34F5EF0000DEED /* Sound+CoreDataClass.swift */,
+				62D9204C2A34F5EF0000DEED /* Sound+CoreDataProperties.swift */,
+				62D9204D2A34F5EF0000DEED /* Location+CoreDataClass.swift */,
+				62D9204E2A34F5EF0000DEED /* Location+CoreDataProperties.swift */,
+				62D91FCA2A34E8820000DEED /* Sleep_Tracker_Leti.xcdatamodeld */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D91FBB2A34E8810000DEED /* Sleep Tracker Leti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D91FCF2A34E8820000DEED /* Build configuration list for PBXNativeTarget "Sleep Tracker Leti" */;
+			buildPhases = (
+				62D91FB82A34E8810000DEED /* Sources */,
+				62D91FB92A34E8810000DEED /* Frameworks */,
+				62D91FBA2A34E8810000DEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sleep Tracker Leti";
+			productName = "Sleep Tracker Leti";
+			productReference = 62D91FBC2A34E8810000DEED /* Sleep Tracker Leti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62D91FB42A34E8810000DEED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					62D91FBB2A34E8810000DEED = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 62D91FB72A34E8810000DEED /* Build configuration list for PBXProject "Sleep Tracker Leti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62D91FB32A34E8810000DEED;
+			productRefGroup = 62D91FBD2A34E8810000DEED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D91FBB2A34E8810000DEED /* Sleep Tracker Leti */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62D91FBA2A34E8810000DEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D91FC72A34E8820000DEED /* Preview Assets.xcassets in Resources */,
+				62D91FC42A34E8820000DEED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D91FB82A34E8810000DEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D91FCC2A34E8820000DEED /* Sleep_Tracker_Leti.xcdatamodeld in Sources */,
+				62D920252A34EF6F0000DEED /* SleepAppViewModel.swift in Sources */,
+				62D91FC92A34E8820000DEED /* DataManager.swift in Sources */,
+				62D9201C2A34EDF80000DEED /* TestView.swift in Sources */,
+				62D920182A34EDB20000DEED /* FontExtensions.swift in Sources */,
+				62D9201A2A34EDDD0000DEED /* ChartView.swift in Sources */,
+				62D920202A34EE470000DEED /* SleepEditorView.swift in Sources */,
+				62DCB55F2A374B9D00C51040 /* SleepListEditedView.swift in Sources */,
+				62D9202B2A34F1560000DEED /* TrackingViewModel.swift in Sources */,
+				62D920672A34F6F70000DEED /* SleepInterval+CoreDataClass.swift in Sources */,
+				62DCB5632A37CBF600C51040 /* StatsViewModel.swift in Sources */,
+				62D920112A34ED220000DEED /* StatsView.swift in Sources */,
+				62D9201E2A34EE1F0000DEED /* TimerView.swift in Sources */,
+				62D920132A34ED470000DEED /* BackgroundView.swift in Sources */,
+				62D920682A34F6F70000DEED /* SleepInterval+CoreDataProperties.swift in Sources */,
+				62D9200F2A34ECE20000DEED /* TrackingView.swift in Sources */,
+				62D91FC22A34E8810000DEED /* SleepAppView.swift in Sources */,
+				62DCB5612A379EC500C51040 /* SleepEditorViewModel.swift in Sources */,
+				62D920662A34F6F70000DEED /* Sleep+CoreDataProperties.swift in Sources */,
+				62D920652A34F6F70000DEED /* Sleep+CoreDataClass.swift in Sources */,
+				62D920292A34F0B60000DEED /* SoundAnimationView.swift in Sources */,
+				62D920272A34F0060000DEED /* AppAlertBadgeManager.swift in Sources */,
+				62D91FC02A34E8810000DEED /* Sleep_Tracker_LetiApp.swift in Sources */,
+				62D920162A34ED980000DEED /* ColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		62D91FCD2A34E8820000DEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62D91FCE2A34E8820000DEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D91FD02A34E8820000DEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Sleep Tracker Leti/Preview Content\"";
+				DEVELOPMENT_TEAM = JW2QXV38C2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sleep-Tracker-Leti-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leti.Sleep-Tracker-Leti";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		62D91FD12A34E8820000DEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Sleep Tracker Leti/Preview Content\"";
+				DEVELOPMENT_TEAM = JW2QXV38C2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sleep-Tracker-Leti-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leti.Sleep-Tracker-Leti";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62D91FB72A34E8810000DEED /* Build configuration list for PBXProject "Sleep Tracker Leti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D91FCD2A34E8820000DEED /* Debug */,
+				62D91FCE2A34E8820000DEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D91FCF2A34E8820000DEED /* Build configuration list for PBXNativeTarget "Sleep Tracker Leti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D91FD02A34E8820000DEED /* Debug */,
+				62D91FD12A34E8820000DEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62D91FCA2A34E8820000DEED /* Sleep_Tracker_Leti.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62D91FCB2A34E8820000DEED /* Sleep_Tracker_Leti.xcdatamodel */,
+			);
+			currentVersion = 62D91FCB2A34E8820000DEED /* Sleep_Tracker_Leti.xcdatamodel */;
+			path = Sleep_Tracker_Leti.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 62D91FB42A34E8810000DEED /* Project object */;
+}
